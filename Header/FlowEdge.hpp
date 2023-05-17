@@ -2,8 +2,8 @@
 // Created by Admin on 5/17/2023.
 //
 
-#ifndef UNTITLED_FLOWEDGE_HPP
-#define UNTITLED_FLOWEDGE_HPP
+#ifndef FLOWEDGE_HPP
+#define FLOWEDGE_HPP
 #include<bits/stdc++.h>
 using namespace std;
 class FlowEdge{

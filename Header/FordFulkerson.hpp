@@ -2,8 +2,8 @@
 // Created by Admin on 5/17/2023.
 //
 
-#ifndef UNTITLED_FORD_FULKERSON_HPP
-#define UNTITLED_FORD_FULKERSON_HPP
+#ifndef FORDFULKERSON_HPP
+#define FORDFULKERSON_HPP
 #include <queue>
 #include <vector>
 #include <limits.h>
@@ -11,14 +11,14 @@
 #include "FlowNetwork.hpp"
 using namespace std;
 
-class Ford_Fulkerson{
+class FordFulkerson{
 private:
     vector<bool> marked;
     vector<FlowEdge> edgeTo;
     int value;
 public:
-    Ford_Fulkerson() = default;
-    Ford_Fulkerson(FlowNetwork G, int s, int t);
+    FordFulkerson() = default;
+    FordFulkerson(FlowNetwork G, int s, int t);
 };
 
-#endif //UNTITLED_FORD_FULKERSON_HPP
+#endif //UNTITLED_FORDFULKERSON_HPP

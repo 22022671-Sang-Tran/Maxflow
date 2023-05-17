@@ -2,10 +2,10 @@
 // Created by Admin on 5/17/2023.
 //
 
-#ifndef UNTITLED_FLOWNETWORK_HPP
-#define UNTITLED_FLOWNETWORK_HPP
+#ifndef FLOWNETWORK_HPP
+#define FLOWNETWORK_HPP
 #include<vector>
-#include "FlowEdge.hpp"
+#include "../Header/FlowEdge.hpp"
 using namespace std;
 
 class FlowNetwork{
@@ -22,4 +22,4 @@ public:
     const vector<FlowEdge> &G(int vertex) const;
 };
 
-#endif //UNTITLED_FLOWNETWORK_HPP
+#endif //FLOWNETWORK_HPP
